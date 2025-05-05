@@ -151,6 +151,139 @@ Transform:
   - {fileID: 992224530}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &470890235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4379083645170455385, guid: 6ffc3ec720549904a97fed830c058f37, type: 3}
+  m_PrefabInstance: {fileID: 2517954997065557822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &470890237
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470890235}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 50, y: 2}
+  m_EdgeRadius: 0
+--- !u!114 &470890239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470890235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e31d1bc2320b2bc49a6fb10d34bff070, type: 2}
+--- !u!114 &470890240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470890235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!1 &542729174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5277778832873031057, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
+  m_PrefabInstance: {fileID: 3928352101631103934}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &542729178
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542729174}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!4 &562468041 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 374444513829973369, guid: ca9b71b77cd00cd4287622ae75de4bfb, type: 3}
@@ -724,7 +857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1608245359276645761, guid: 6ffc3ec720549904a97fed830c058f37, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.36666828
+      value: -9.02
       objectReference: {fileID: 0}
     - target: {fileID: 1608245359276645761, guid: 6ffc3ec720549904a97fed830c058f37, type: 3}
       propertyPath: m_LocalPosition.z
@@ -762,10 +895,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyer_Asteroid
       objectReference: {fileID: 0}
+    - target: {fileID: 4379083645170455385, guid: 6ffc3ec720549904a97fed830c058f37, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4379083645170455385, guid: 6ffc3ec720549904a97fed830c058f37, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470890237}
+    - targetCorrespondingSourceObject: {fileID: 4379083645170455385, guid: 6ffc3ec720549904a97fed830c058f37, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470890240}
+    - targetCorrespondingSourceObject: {fileID: 4379083645170455385, guid: 6ffc3ec720549904a97fed830c058f37, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470890239}
   m_SourcePrefab: {fileID: 100100000, guid: 6ffc3ec720549904a97fed830c058f37, type: 3}
 --- !u!1001 &3928352101631103934
 PrefabInstance:
@@ -819,17 +965,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner_Asteroid
       objectReference: {fileID: 0}
+    - target: {fileID: 5277778832873031057, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6575956723749356085, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spawnDelay","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawnCooldownRemaining","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawnCooldownRemaining","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5277778832873031057, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 542729178}
   m_SourcePrefab: {fileID: 100100000, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
 --- !u!1001 &7121880907647965414
 PrefabInstance:
@@ -943,7 +1096,7 @@ PrefabInstance:
     - target: {fileID: 7801902256743662096, guid: ca9b71b77cd00cd4287622ae75de4bfb, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"rotationPower","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"rotationPower","value":{"$content":40.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"boostSpeed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isBoosting","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"health","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,

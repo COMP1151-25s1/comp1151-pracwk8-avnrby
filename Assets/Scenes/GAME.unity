@@ -434,7 +434,7 @@ Transform:
   m_GameObject: {fileID: 992224526}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.276336, y: -0.9827305, z: -0.06480082}
+  m_LocalPosition: {x: -3.24, y: -2.91, z: -0.06480082}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -777,15 +777,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3211843742775396498, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.29343718
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3211843742775396498, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.36666828
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3211843742775396498, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.057993416
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3211843742775396498, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
       propertyPath: m_LocalRotation.w
@@ -819,74 +819,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner_Asteroid
       objectReference: {fileID: 0}
+    - target: {fileID: 6575956723749356085, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spawnDelay","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawnCooldownRemaining","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02f6730a47451de44956c00d88ea8071, type: 3}
---- !u!1001 &6513352002131809532
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4903184789238162015, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6815468730449811089, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"direction","value":{"x":1.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"speed","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 7823279471108849023, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
-      propertyPath: m_Name
-      value: meteorBrown_big1_0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: af9dbb08602ff8e4b8e5b32e58d9f736, type: 3}
 --- !u!1001 &7121880907647965414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -958,11 +902,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 374444513829973369, guid: ca9b71b77cd00cd4287622ae75de4bfb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 4.2
       objectReference: {fileID: 0}
     - target: {fileID: 374444513829973369, guid: ca9b71b77cd00cd4287622ae75de4bfb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3.96
       objectReference: {fileID: 0}
     - target: {fileID: 374444513829973369, guid: ca9b71b77cd00cd4287622ae75de4bfb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1021,7 +965,6 @@ SceneRoots:
   - {fileID: 1551365817}
   - {fileID: 8837554394985035460}
   - {fileID: 2104945870}
-  - {fileID: 6513352002131809532}
   - {fileID: 7121880907647965414}
   - {fileID: 34652125}
   - {fileID: 932237029}
